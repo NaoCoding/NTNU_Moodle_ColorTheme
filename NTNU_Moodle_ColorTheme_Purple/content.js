@@ -27,7 +27,17 @@ window.onload=function(){
         catch{}
         try{document.querySelector("#page-header > div > div > div > div:nth-child(1) > div > div > div > h1").style.color = "rgb(105 110 235)"}
         catch{}
-        
+        try{document.querySelector("#page-site-index").setAttribute("style","background-color:#dedae5;") }
+        catch{}
+        try{document.querySelector("#page-course-view-topics").setAttribute("style","background-color:#dedae5;")}
+        catch{}
+        for (let index = 0; index < 25; index++) {
+            for (let j = 0; j < 25; j++) {
+                try{document.querySelector("#frontpage-course-list > div > div:nth-child("+j+") > div:nth-child("+index+") > div.card-footer > div > a")
+            .setAttribute("style","background-color:#382a4f;border-color:#382a4f;")}
+                catch{}
+            }
+        }
         
 
         
