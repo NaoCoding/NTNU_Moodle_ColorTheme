@@ -38,6 +38,8 @@ window.onload=function(){
                 catch{}
             }
         }
+        try{document.querySelector("#site-news-forum > h2").setAttribute("style","color:#5e00b1;")}
+        catch{}
         
 
         
