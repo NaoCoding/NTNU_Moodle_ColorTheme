@@ -11,3 +11,6 @@
 Purple [Update at 2024/04/07]
 ```
 
+# Screenshots
+### Purple
+![image](https://github.com/NaoCoding/NTNU_Moodle_ColorTheme/assets/86964895/5d065531-9a0e-4d65-afbe-f2961e7b7069)
